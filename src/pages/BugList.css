@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container Styles */
+.bug-list-container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* Title Styles */
+.page-title {
+    font-size: 28px;
+    color: #343a40;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.page-title svg {
+    margin-right: 10px;
+}
+
+/* Loading and Error Messages */
+.loading, .error, .no-bugs {
+    text-align: center;
+    color: #6c757d;
+    font-size: 20px;
+}
+
+/* Bug Card Styles */
+.bug-card {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.bug-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Bug Main Section */
+.bug-main {
+    display: flex;
+    align-items: center;
+}
+
+.bug-icon {
+    font-size: 30px;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.bug-details {
+    flex-grow: 1;
+}
+
+.filename {
+    font-size: 22px;
+    color: #343a40;
+    margin: 0;
+}
+
+.line-number {
+    color: #007bff;
+}
+
+/* Error Text */
+.error-text {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+/* Toggle Button */
+.toggle-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.toggle-btn:hover {
+    color: #0056b3;
+}
+
+/* Extra Bug Details */
+.bug-extra {
+    margin-top: 10px;
+    padding: 15px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.bug-extra p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Icons in Extra Details */
+.bug-extra svg {
+    margin-right: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .bug-list-container {
+        padding: 15px;
+    }
+
+    .page-title {
+        font-size: 24px;
+    }
+
+    .bug-card {
+        padding: 15px;
+    }
+
+    .filename {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,130 @@
+/* General Container Styling */
+.file-upload-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+/* Header */
+.file-upload-container h2 {
+  color: #2c3e50;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* File Input */
+.file-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px dashed #3498db;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.file-input:hover {
+  background-color: #eef6fd;
+}
+
+/* File Preview */
+.file-preview {
+  margin-top: 20px;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  margin-top: 10px;
+}
+
+/* Upload Button */
+.upload-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.upload-btn:hover {
+  background: linear-gradient(135deg, #2980b9, #1e6b8f);
+}
+
+.upload-btn:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Upload Message */
+.upload-message {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+/* Bug Information Section */
+.bug-info-container {
+  margin-top: 40px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bug-info-container h3 {
+  font-size: 20px;
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.bug-category {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-left: 5px solid #3498db;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.bug-category h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2980b9;
+  margin-bottom: 5px;
+}
+
+.bug-category p {
+  font-size: 14px;
+  color: #2c3e50;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .file-upload-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .upload-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

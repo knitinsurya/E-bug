@@ -1,0 +1,13 @@
+/* Footer.css */
+.footer {
+    background: linear-gradient(to right, #85d375, #57c8c0);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: down;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
