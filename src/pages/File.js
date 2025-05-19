@@ -35,7 +35,7 @@ const FileUpload = () => {
     try {
       console.log("Uploading file:", file.name);
 
-      const response = await fetch("https://e-bug-tracker.onrender.com/upload-file", {
+      const response = await fetch("http://localhost:5000/upload-file", {
         method: "POST",
         body: formData,
       });
