@@ -33,7 +33,7 @@ const FolderUpload = () => {
     });
 
     try {
-      const response = await fetch("https://e-bug-tracker.onrender.com/upload-folder", {
+      const response = await fetch("http://localhost:5000/upload-folder", {
         method: "POST",
         body: formData,
       });
